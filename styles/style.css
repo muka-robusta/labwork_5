@@ -1,0 +1,161 @@
+@import "colors.css" screen;
+
+*:focus {outline: none;}
+
+.container {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	padding-top: 5px;
+	padding-bottom: 50px;
+
+	width: auto;
+
+	background-color: var(--light_sky);
+
+	border-style: solid;
+	border-color: var(--light_ocean);
+	border-radius: 2px;
+	border-width: 0.5pt;
+
+	list-style-type:none;
+    list-style-position:outside;
+}
+/*
+p {
+	font-family: 'Public Sans', sans-serif;
+	font-size: 12pt;
+}
+
+
+
+.field_property {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+
+.field_name {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding-left: 15px;
+
+	background-color: var(--dark_ocean);
+	width: 150px;
+}
+
+.field_name_text {
+	color: var(--light_ocean);
+	padding: 0;
+	margin: 0;
+}
+
+.input_area {
+	background-color: var(--light_ocean);
+}
+
+.input_number {
+	padding: 7px;
+	background-color: transparent;
+	border-width: 0;
+	border-radius: 0;
+
+	color: var(--light_sky);
+}
+
+.input_number:focus {
+	color: var(--dark_ocean);
+	background-color: var(--light_sky);
+	border-width: 0; 
+}
+
+.group_input_area {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+*/
+
+.image_object {
+
+	border-style: solid;
+	border-color: var(--green_blue_ocean);
+	border-width: 5px;
+	border-radius: 3px;
+
+}
+
+.ico_header {
+	font-size: 35pt;
+	color: var(--dark_ocean);
+}
+
+.header{
+	font-family: 'Public Sans', sans-serif;
+	color: var(--dark_ocean);
+}
+
+.input_area {
+	margin-top: 35px;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	height: 120px;
+
+}
+
+.input_number {
+	padding: 8px;
+	margin-bottom: 6px;
+	width: 215px;
+
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 1px;
+
+}
+ /*
+.input_number:focus {
+	padding: 8px 8px 8px 2px;
+	width: 216px; 
+	//border-style: solid;
+	border-width: 1px 1px 1px 8px;
+	border-style: solid;
+	border_color: #97BF04;
+	
+}
+*/
+
+.apply_button {
+	padding: 8px;
+	margin-top: 10px;
+	background-color: var(--green_blue_ocean);
+	width: 215px;
+	border-radius: 2px;
+}
+
+.apply_button_link {
+
+	color: var(--light_sky);
+	text-decoration: none;
+	font-family: 'Public Sans', sans-serif;
+}
+
+.input_container {
+	width: 300px;
+	display: inline;
+	position: relative;
+}
+
+

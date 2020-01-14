@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 5</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!--<link rel="stylesheet" type="text/css" href="style1.css">-->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	
+</head>
+<body>
+	<!--
+	<div class="payload">
+		<p class="header_text">Changing image properties</p>
+		<img id="image" class="img_to_change" src="data/test_img.jpg">
+		<div class="change_area">
+			<p class="header_text">Image size change</p>
+			<input id="width" type="text" name="width" value="350" class="input_">
+			<input id="height" type="text" name="height" value="431" class="input_">
+		</div>
+		<div class="change_area">
+			<p class="header_text">Border change</p>
+			<input id="border" type="text" name="frame width" value="4" class="input_">
+			<input id="border_color" type="text" name="frame color" value="red" class="input_">
+		</div>
+		<div class="change_area">
+			<p class="header_text">Additional</p>
+			<input id="alt_text" type="text" name="alt" value="I want to believe!" class="input_">
+		</div>
+		<button id="submit" class="submit_btn">Submit</button>
+		<script type="text/javascript" src="script_.js"></script>
+	</div>
+	-->
+
+	<div class="container" align="center">
+		<h1 class="header"><i class="material-icons ico_header">photo_size_select_actual</i><br>Changing image properties</h1>
+		<img src="data/test_img.jpg" id="image" class="image_object">
+
+		<!--
+		<div class="group_input_area">
+			<h4 class="header">Size change</h4>
+			<div class="field_property">
+				<div class="field_name">
+					<p class="field_name_text">Width</p>
+				</div>
+				<div class="input_area">
+					<input id="width_input" type="text" name="frame width" value="350" class="input_number">
+				</div>
+			</div>
+
+			<div class="field_property">
+				<div class="field_name">
+					<p class="field_name_text">Height</p>
+				</div>
+				<div class="input_area">
+					<input id="height_input" type="text" name="frame width" value="431" class="input_number">
+				</div>
+			</div>
+		</div>-->
+
+		<div class="input_container">
+			<div class="input_area">
+				<h2 class="header">Size change</h2>	
+				<input id="width_input" type="text" name="width" placeholder="Width" class="input_number" autocomplete="off">
+				<input id="height_input" type="text" name="height" placeholder="Height" class="input_number" autocomplete="off">
+			</div>
+
+			<div class="input_area">
+				<h2 class="header">Border change</h2>
+				<input id="border_width" type="text" name="border_width" placeholder="Width" class="input_number" autocomplete="off">
+				<input id="border_color" type="text" name="border_color" placeholder="Color" class="input_number" autocomplete="off">
+			</div>
+
+			<div class="input_area">
+				<h2 class="header">Additional</h2>
+				<input id="alter_text" type="text" name="alter_text" placeholder="Alter text" class="input_number" autocomplete="off">
+			</div>
+
+			
+			<a id="submit" class="apply_button_link"><div class="apply_button">Apply changes</div></a>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="script_.js"></script>
+</body>
+</html>
